@@ -14,6 +14,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -92,6 +93,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -127,7 +129,7 @@
         <repository>
             <id>project.local</id>
             <name>project</name>
-            <url>file:///Users/ruslanapostol/IdeaProjects/Module3/Code/project-maven/repo</url>
+            <url>file:///Users/ruslanapostol/IdeaProjects/ACDC/project-maven/repo</url>
         </repository>
     </repositories>
 
